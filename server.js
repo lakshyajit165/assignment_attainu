@@ -45,6 +45,7 @@ app.listen(PORT, () => {
 
 require("./routes/auth.routes")(app);
 require("./routes/addressupdate.routes")(app);
+require("./routes/imageedit.routes")(app);
 
 function initial() {
     Role.estimatedDocumentCount((err, count) => {

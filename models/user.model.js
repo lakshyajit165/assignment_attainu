@@ -9,7 +9,7 @@ const User = mongoose.model(
     address: String,
     roles: [
       {
-        type: mongoose.Schema.Types.ObjectId,
+        type: String,
         ref: "Role"
       }
     ]
